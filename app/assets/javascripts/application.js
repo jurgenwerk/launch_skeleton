@@ -28,9 +28,13 @@ $(document).ready(function() {
 	$('a.jump').on('click',function(){
   	$('.main').removeClass('hidden');
   	
-  	$('html, body').animate({
+  	$('.footer-link').hide('slow')
+  	
+
+  	setTimeout(function() {
+		    $('html, body').animate({
         scrollTop: $(".scroll-to").offset().top
     }, 600);
-    $('.footer-link').hide()
+		}, 100);
 	});
 });
