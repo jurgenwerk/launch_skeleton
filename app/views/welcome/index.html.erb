@@ -1,6 +1,6 @@
 <!--<div class="fonz pagination-centered text-center"></div>-->
 
-<div class="row">
+<div class="row hmz">
 	<div class="stripe pagination-centered text-center">
 		<div class="span7custom-nav">
 		</div>
@@ -19,7 +19,7 @@
 		    <div id="email-area">
 			    <%= form_for @email, url: emails_path do |f| %>
 					  <%= f.text_field :email, :class => "span3 input-email", :placeholder => "E-mail" %>
-					  <%= button_tag(:class => "btn btn-primary btn-wide mll text-center") do %>
+					  <%= button_tag(:class => "btn btn-primary btn-wide mll text-center submit-button") do %>
 						  <i class='fui-mail'></i> Notify me when The Butler will be ready!
 						<% end %>
 					<% end %>
@@ -41,10 +41,10 @@
 		<div id="explanation-area">
 			<div class="row-fluid stripe2">
 				<div class="fluid-center">
-					<h4>Let's say you're <span class="label label-large label-info label-scenario">looking for a job </span> on the internet. Perhaps you're <span class="label label-large label-info label-scenario">buying</span> a very specific vintage car, maybe even a house. What if you're a musician <span class="label label-large label-info label-scenario">waiting for a bargain</span> on a used drumset?</h4>
+					<h4><span class="label label-large label-info label-scenario">Looking for a job </span> on the internet? Perhaps you're <span class="label label-large label-info label-scenario">buying</span> a very specific vintage car, maybe even a house. What if you're a musician <span class="label label-large label-info label-scenario">waiting for a bargain</span> on a used drumset?</h4>
 				</div>
 			</div>
-
+			<br>
 			<div class="row-fluid stripe3">
 				<div class="fluid-center">
 					<h4>You keep refreshing your ads sites, forums, bulletin boards and looking if there's anything new that suits you. Weekly, daily, even hourly.</h4>
@@ -66,7 +66,7 @@
 					</div>
 				</div>
 			</div>
-
+			<br>
 			<div class="row-fluid stripe5">
 				<div class="fluid-center pagination-centered text-center">
 					<h2 class="bit-bigger">The Butler works for you.</h2>
@@ -100,7 +100,7 @@
 							<div class="box">
 								<div class="circle pagination-centered text-center"><h4 class="number">3</h4></div>
 								<div class="instruction">
-									<span class="instruction-title text-center">Forget about it!</span>
+									<span class="instruction-title text-center">Forget about it</span>
 									<br><br>
 									The Butler will inform you immediately when he finds something new!
 									<div class="wait-image"></div>
@@ -118,7 +118,18 @@
 			<div class="row-fluid stripe6">
 						<div class="fluid-center">
 								<!--<div class="jw-image"> -->
-								
+								<a href="https://twitter.com/matixmatix" class="twitter-follow-button" data-show-count="false">Follow @matixmatix</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+								<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-43795542-1', 'keyword-butler.com');
+  ga('send', 'pageview');
+
+</script>
 						</div>
 		</div>
 	</div>
