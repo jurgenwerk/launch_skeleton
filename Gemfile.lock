@@ -118,7 +118,7 @@ DEPENDENCIES
   jbuilder (~> 1.2)
   jquery-rails
   pg
-  rails (= 4.0.0.rc2)
+  rails
   rails_12factor
   sass-rails (~> 4.0.0.rc2)
   sdoc

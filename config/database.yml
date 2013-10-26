@@ -5,11 +5,11 @@
 #   gem 'sqlite3'
 development:
   adapter: postgresql
-  database: butler_invite
+  database: db
   pool: 5
   timeout: 5000
   username: postgres
-  password: biu4bh
+  password: pass
   host: localhost
 
 
@@ -26,8 +26,8 @@ production:
   adapter: postgresql
   encoding: unicode
   pool: 5
-  database: d2h0dvqaah8q82
-  username: scpmevikpobagz
-  password: -3rDV2aMLAbSnvt64vibWSS6nN
-  host: ec2-54-228-234-250.eu-west-1.compute.amazonaws.com
+  database: 
+  username: 
+  password: 
+  host: 
   port: 5432

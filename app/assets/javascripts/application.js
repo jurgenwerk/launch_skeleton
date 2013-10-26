@@ -22,19 +22,3 @@
 //= require jquery.stacktable
 //= require jquery_ujs	
 //= require_tree .
-
-
-$(document).ready(function() {
-	$('a.jump').on('click',function(){
-  	$('.main').removeClass('hidden');
-  	
-  	$('.footer-link').hide('slow')
-  	
-
-  	setTimeout(function() {
-		    $('html, body').animate({
-        scrollTop: $(".scroll-to").offset().top
-    }, 600);
-		}, 100);
-	});
-});
